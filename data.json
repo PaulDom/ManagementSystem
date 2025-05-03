@@ -1,0 +1,75 @@
+{
+  "Tasks": [
+    {
+      "assignedEmployee": "Epmloyee1",
+      "projectId": 1,
+      "title": "test1Task",
+      "description": "simple test",
+      "status": "done"
+    },
+    {
+      "assignedEmployee": "unassigned",
+      "projectId": 2,
+      "title": "test2Task",
+      "description": "simple 2test",
+      "status": "toDo"
+    },
+    {
+      "assignedEmployee": "unassigned",
+      "projectId": 3,
+      "title": "wqee",
+      "description": "qwe",
+      "status": "toDo"
+    },
+    {
+      "assignedEmployee": "Epmloyee2",
+      "projectId": 5,
+      "title": "ewqewe",
+      "description": "weq",
+      "status": "inProgress"
+    }
+  ],
+  "Managers": [
+    {
+      "role": "Manager",
+      "username": "Manager1",
+      "password": "Manager1"
+    }
+  ],
+  "Employees": [
+    {
+      "role": "Employee",
+      "assignedTasks": [
+        {
+          "assignedEmployee": "Epmloyee1",
+          "projectId": 1,
+          "title": "test1Task",
+          "description": "simple test",
+          "status": "done"
+        }
+      ],
+      "username": "Epmloyee1",
+      "password": "Epmloyee1"
+    },
+    {
+      "role": "Employee",
+      "assignedTasks": [
+        {
+          "assignedEmployee": "Epmloyee2",
+          "projectId": 5,
+          "title": "ewqewe",
+          "description": "weq",
+          "status": "inProgress"
+        }
+      ],
+      "username": "Epmloyee2",
+      "password": "Epmloyee2"
+    },
+    {
+      "role": "Employee",
+      "assignedTasks": [],
+      "username": "Epmloyee3",
+      "password": "Epmloyee3"
+    }
+  ]
+}
